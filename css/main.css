@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 15px;
+  background-color: #ffd845;
+}
+
+
+.card {
+  border-radius: 16px;
+  border: 1.5px solid black;
+  padding: 75px;
+  height: 350px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+.text-center input {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+}
+
+.d-flex {
+
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  gap: 30px;
+}
